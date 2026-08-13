@@ -7,7 +7,7 @@
     ".": "./Index.svelte"
   },
   "scripts": {
-    "build": "vite build"
+    "build": "node init && vite build"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.1.2",
